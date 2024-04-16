@@ -23,7 +23,8 @@ Install the determined CLI:
 It is recommended to add `export DET_MASTER=PublicIP:8080` to your `~/.bashrc` file. 
 
 Now you can run this small example. 
-```wget https://docs.determined.ai/latest/_downloads/61c6df286ba829cb9730a0407275ce50/mnist_pytorch.tgz
+```
+wget https://docs.determined.ai/latest/_downloads/61c6df286ba829cb9730a0407275ce50/mnist_pytorch.tgz
 tar -xf mnist_pytorch.tgz
 cd mnist_pytorch
 ```
