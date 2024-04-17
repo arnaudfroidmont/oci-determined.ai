@@ -11,13 +11,15 @@ Install the Helm chart:
 `helm install determined determined` 
 with determined the folder including the values.yaml file. 
 
-Find the Public IP address of the Load Balancer with `k get services`
-
 Install the determined CLI: 
 
-`sudo osms unregister`
-`sudo yum install python3.8`
-`sudo pip3.8 install determined`
+```
+sudo osms unregister
+sudo yum install python3.8
+sudo pip3.8 install determined
+```
+Find the Public IP address of the Load Balancer with `k get services`
+Export the Public IP
 `export DET_MASTER=PublicIP:8080`
 
 It is recommended to add `export DET_MASTER=PublicIP:8080` to your `~/.bashrc` file. 
